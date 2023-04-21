@@ -1,0 +1,5 @@
+//print odd number in an Array
+const a=[10,1,2,3,5]
+let oddnumber= a.filter( a => a% 2 !==0 );
+console.log(oddnumber)
+  

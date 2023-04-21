@@ -1,0 +1,10 @@
+const sA = ["hi surya", "this is your code", "using functions"];
+let upa = sA. map(string => {
+  const words = string.split(" ");
+  const titleCasedWords = words.map(word => {
+    return word.charAt(0).toUpperCase() + word.slice(1);
+  });
+  return titleCasedWords.join(" ");
+});
+
+console.log(upa);
